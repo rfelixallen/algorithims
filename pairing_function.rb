@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+# Creates a unique number from 2 other numbers
+
 def cantor_pairing(n, m)
     (n + m) * (n + m + 1) / 2 + m
 end
